@@ -27,7 +27,7 @@
     });
 
 
-// COPY TO CLIPBOARD
+// COPY TO CLIPBOARD BUTTON
 // Attempts to use .execCommand('copy') on a created text field
 // Falls back to a selectable alert if not supported
 // Attempts to display status in Bootstrap tooltip
@@ -74,5 +74,6 @@ $(document).ready(function() {
     copyToClipboard(text, el);
   });
 });
+
 
 })(jQuery); // End of use strict
